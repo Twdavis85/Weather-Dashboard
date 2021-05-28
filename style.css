@@ -1,0 +1,15 @@
+.jumbotron {
+    background-color: blue;
+    color: white;
+    height: 185px;
+}
+
+.jumbotron h1 {
+    text-align: center;
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.city-name {
+    margin-left: 0;
+}
