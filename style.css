@@ -5,11 +5,17 @@
 }
 
 .jumbotron h1 {
-    text-align: center;
     font-size: 90px;
     font-weight: bold;
 }
 
-.city-name {
-    margin-left: 0;
+.search {
+    margin-top: 10px;
+    background-color: gray;
+    border: 2px solid gray;
+    border-radius: 6px;
+}
+
+.search:hover {
+    border: 2px solid lightgray;
 }
