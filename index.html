@@ -28,22 +28,28 @@
           <h1>Weather Dashboard</h1>
         </div>
       </div>
-      <div class="container-fluid">
-        <div class="input">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
             <h2>Search for a city:</h2>
             <div class="searchBox">
-              <input type="text" class="cityBox col-3" placeholder="New York">
+              <input type="text" class="citybox col-12" placeholder="New York">
             </div>
-          <div class="searchBtn">
-            <button class="search col-3">Search</button>
+            <div class="searchBtn">
+              <button class="search col-12">Search</button>
+            </div>
+            <div class="saved">
+            </div>
           </div>
-          <div class="container">
-              
+          <div class="col-9">
+            <div class="weatherbox"></div>
+              <div class="fiveday"></div>
           </div>
+        </div>
           
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-  
+      <script src="script.js"></script>
 </body>
 </html>

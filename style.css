@@ -19,3 +19,28 @@
 .search:hover {
     border: 2px solid lightgray;
 }
+
+.today {
+    border: 2px solid black;
+}
+
+.fiveday {
+    display: flex;
+}
+
+.card-body h3 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.card-body h4 {
+    font-size: 20px;
+}
+
+.card-body h5 {
+    font-size: 15px;
+}
+
+.card-body h6 {
+    font-size: 14px;
+}
